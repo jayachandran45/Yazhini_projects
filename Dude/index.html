@@ -17,21 +17,21 @@
 
   <!--Creating a navbar-->
 
-  <div class="nav-bar-container">
-    <img src="assets/Logo.png" alt="logo">
-    <a href="#" class="toggle-btn">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-  </a>
-    <div class="nav-inside-container">
-      <li>Wedding cards</li>
-      <li>Birthday Cards</li>
-      <li>Feeling Cards</li>
-      <li>Anniversary Cards</li>
+  <div class="header-container">
+        <nav class="nav-container">
+            <h1 style="margin-bottom: 0px;"class="logo animate-charcter">YAZHINI</h1>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul style="margin-bottom: 0px;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-    <p>Login | Signup</p>
-  </div>
 
   <!--Creating main section-->
   <div class="main-section">
@@ -40,7 +40,8 @@
     
     <div class="relative-div">
       <img src="assets/Background.jpg">
-      <h1>Digital Card Details</h1>
+      <h1 style="margin-top: 5px;">Yazhini Cards</h1>
+      
     </div>
     
     <div class="container-main">
@@ -53,20 +54,20 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="assets/Page1.jpg" class="d-block w-100" alt="Page1" >
-              <div class="carousel-caption d-none d-md-block">
+              <img src="assets/Page1.jpeg" class="d-block w-100" alt="Page1" >
+              <div class="carousel-caption d-none d-md-block car-style">
                 
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="assets/Page2.jpg" class="d-block w-100" alt="page2">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="assets/Page2.jpeg" class="d-block w-100" alt="page2">
+              <div class="carousel-caption d-none d-md-block car-style">
                
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/Page3.jpg" class="d-block w-100" alt="page3">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="assets/Page3.jpeg" class="d-block w-100" alt="page3">
+              <div class="carousel-caption d-none d-md-block car-style">
                
               </div>
             </div>
@@ -82,7 +83,10 @@
         </div>
       </div>
       <div class="container-main-item2">
-        <h2>Card Title</h2>
+        <!--using floting text insted <h2>card title</h2>-->
+        <h2 class="animate-charcter" style="text-shadow: 3px 2px 5px #eb2c4d;">iniYazh &#128151;</h2>
+
+
         <div class="container-inside-main-item2">
           <div>
             <span style="font-size: 24px;font-weight: bold;">$499</span> 
@@ -92,7 +96,7 @@
           <span style="color:#2BD234 ;font-size: 24px;font-weight: bold;">75%off</span>
         </div>
         </div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus numquam non delectus, sequi doloribus, eum ea quae eaque provident veniam, accusantium illo vero esse modi soluta expedita? Dolorum, eligendi voluptatum.</p>
+        <p><span class="dec">Hey,</span> Whats up guys . Here your's friend <span class="dec">Yazhini &#128112; !</span> This website is used to make some cool, animated wedding cards . Go and give a try  ...</p>
         <button class="card-btn">Try this card</button>
       </div>
     </div>
@@ -105,19 +109,23 @@
     <h1 style="text-align: center;">Features</h1>
     <div class="footer-flex-container">
       <div class="footer-flex item1">
-        <img src="assets/footer-blur-image.png" alt="blur-image" width="60%"> 
+        <img src="assets/fimage.jpeg" alt="blur-image" width="60%" class="img-style"> 
         <p>Create your card in just 5 mins</p></div>
       <div class="footer-flex item2">
-        <img src="assets/footer-blur-image.png" alt="blur-image" width="60%"> 
+        <img src="assets/fimage.jpeg" alt="blur-image" width="60" class="img-style"> 
         <p>Customize the Text with "Edit this page" Option</p>
       </div>
       <div class="footer-flex item3">
-        <img src="assets/footer-blur-image.png" alt="blur-image" width="60%"> 
+        <img src="assets/fimage.jpeg" alt="blur-image" width="60%"
+        class="img-style"> 
         <p>Editing is available after purchase also</p>
       </div>
     </div>
 </footer>
   
   </div>
+
+
+  <script src="index.js"></script>
 </body>
 </html>
