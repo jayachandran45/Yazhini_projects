@@ -168,6 +168,7 @@ li > a:hover{
     position: relative;
     top:-140px;
     background-color: white;
+    box-shadow: 3px 5px 10px #0b0a0aad;
 }
 .container-main-item2{
     width: 400px;
@@ -202,6 +203,7 @@ li > a:hover{
 
 footer{
     margin-bottom: 20px;
+    
 }
 .footer-flex-container{
     display: flex;
@@ -212,6 +214,7 @@ footer{
     padding: 20px;
     border-radius: 30px;
     height: 200px;
+    box-shadow: 3px 5px 10px #0b0a0aad;
 }
 .footer-flex-container img{
    width: 100px;
